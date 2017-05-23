@@ -1,0 +1,8 @@
+<p>
+  student works!
+</p>
+<span *ngFor="let student of studentsList; let i = index">
+  {{student}}
+  <button (click)="deleteStudent(i)">x</button>
+  <br>
+</span>

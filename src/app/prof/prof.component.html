@@ -1,0 +1,11 @@
+<p>
+  prof works!
+</p>
+
+<app-student></app-student>
+
+<span *ngFor="let room of dhbw.myRooms; let i = index">
+  <input [(ngModel)]="room.name">
+  {{room.name}}
+  <br>
+</span>

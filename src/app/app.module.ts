@@ -5,10 +5,16 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { StudentComponent } from './student/student.component';
+import { ProfComponent } from './prof/prof.component';
+
+import { DhbwService } from './dhbw.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StudentComponent,
+    ProfComponent
   ],
   imports: [
     BrowserModule,
@@ -16,7 +22,7 @@ import { AppComponent } from './app.component';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ DhbwService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
