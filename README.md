@@ -1,9 +1,9 @@
 
 # e-portfolio-angular
 
-On the master branch is the finished code example.
+On the master branch is the finished code example from the live demo.
 
-# Tutorial
+# Tutorial:
 
 This is a small tutorial to create a small exmaple Project with Angular CLI
 
@@ -19,9 +19,9 @@ npm install -g @angular/cli
 
 ## Create and run a new Project with Angular CLI
 
-ng new PROJECT-NAME --routing
-cd PROJECT-NAME
-ng serve --open
+1. ng new PROJECT-NAME --routing
+2. cd PROJECT-NAME
+3. ng serve --open
 
 ## Optional Example: Create Components and Service with Angular CLI
 

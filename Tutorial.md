@@ -14,9 +14,9 @@ npm install -g @angular/cli
 
 ## Create and run a new Project with Angular CLI
 
-ng new PROJECT-NAME --routing
-cd PROJECT-NAME
-ng serve --open
+1. ng new PROJECT-NAME --routing
+2. cd PROJECT-NAME
+3. ng serve --open
 
 ## Optional Example: Create Components and Service with Angular CLI
 
