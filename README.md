@@ -29,9 +29,6 @@ npm install -g @angular/cli
 2. ng generate component prof
 3. ng generate service dhbw --module "app.module"
 
-## programm
-
-build your own Angular App.
 
 
 # Angular CLI
