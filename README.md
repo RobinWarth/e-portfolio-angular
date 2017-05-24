@@ -29,6 +29,7 @@ npm install -g @angular/cli
 2. ng generate component prof
 3. ng generate service dhbw --module "app.module"
 
+4. Follow the LiveDemo-Tutorial skript to create a small example project: https://github.com/RobinWarth/e-portfolio-angular/blob/master/Tutorial-Beispiel_LiveDemo.pdf
 
 
 # Angular CLI
