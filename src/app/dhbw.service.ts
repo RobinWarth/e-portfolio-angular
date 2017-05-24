@@ -9,8 +9,7 @@ export class DhbwService {
     {id: 2, name: 'raum2'},
     {id: 3, name: 'raum3'},
     {id: 4, name: 'raum4'}
-  ]
-  
+  ];
   constructor() { }
 
 }
